@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="graphiql" Version="1.2.0" />
     <PackageReference Include="GraphQL" Version="2.4.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
       <PrivateAssets>all</PrivateAssets>
@@ -13,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RealEstateManager.DataAccess\RealEstateManager.DataAccess.csproj" />
     <ProjectReference Include="..\RealEstateManager.Database\RealEstateManager.Database.csproj" />
+    <ProjectReference Include="..\RealEstateManager.Types\RealEstateManager.Types.csproj" />
     <ProjectReference Include="..\RealEstateManager.Utilities\RealEstateManager.Utilities.csproj" />
   </ItemGroup>
 
