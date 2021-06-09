@@ -11,7 +11,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-  </ItemGroup>
+  </ItemGroup>	
 
   <ItemGroup>
     <ProjectReference Include="..\RealEstateManager.DataAccess\RealEstateManager.DataAccess.csproj" />
